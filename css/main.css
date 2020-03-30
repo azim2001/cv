@@ -1,5 +1,5 @@
 html {
-  font-family: Roboto, sans-serif;
+  font-family: Arial, Roboto, sans-serif;
   --primary-color: #2f80ed;
   --secondary-color: #333333;
   --bg-color: #ffffff;
@@ -50,13 +50,18 @@ ul {
   list-style: none;
 }
 
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+
 .cv {
   max-width: 900px;
   margin: 0 auto;
 }
 
 .cv:first-child {
-  margin-top: 30px;
+  margin-top: 10px;
 }
 
 .contacts {
@@ -177,29 +182,6 @@ html.transition * {
   -webkit-transition-delay: 0 !important;
           transition-delay: 0 !important;
 }
-/*# sourceMappingURL=main.css.map */
-
-/* skills */
-
-.skills dd {
-  margin: 0;
-  margin-bottom: 10px;
-
-  background-color: #e8e8e8;
-}
-
-.skills-level {
-  font-size: 12px;
-  text-align: center;
-  color: #ffffff;
-  background-color: #4470c4;
-  padding: 10px;
-}
-
-.skills-level-ok {
-  background-color: #47bb52;
-}
-
 
 a {
   text-decoration: none;
@@ -228,6 +210,23 @@ a:active {
   margin-bottom: 2em;
 }
 
+#tech {
+  border-radius: 7px;
+}
+
+.technologies {
+  padding-right: 0;
+  padding-bottom: 20px;;
+}
+
+.technologies .tech {
+  width: 50%
+}
+
+.tech-img {
+  min-width: 50%;
+}
+
 @media (max-width: 576px) {
   .my-data {
     display: block;
@@ -237,8 +236,8 @@ a:active {
     width: 150px;
   }
 
-  .skills {
-    text-align: center;
+  .tech-img {
+    width: 80%;
   }
 }
 
@@ -249,5 +248,11 @@ a:active {
 
   .avatar {
     margin-left: 20px;
+  }
+}
+
+@media (max-width: 991px) and (min-width: 769px) { 
+  .technologies .tech {
+    text-align: center;
   }
 }

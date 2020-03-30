@@ -10,9 +10,9 @@
   <link rel="stylesheet" href="css/main.css">
   <base target="_blank">
 </head>
-<body>
-  <div class="cv">
-    <section>
+<body style="overflow-x: hidden;">
+  <div class="cv container-fluid">
+    <section class="no-gutters">
       <div class="card mb-3 about-me" style="max-width: 540px;">
         <div class="row no-gutters">
           <div class="col-sm-4">
@@ -57,7 +57,6 @@
           <input type="checkbox" class="theme-switch__checkbox"/>
           <div class="slider round"></div>
         </label>
-        <span class="theme-switch__label">Dark Mode</span>
       </div>
       <div class="card mt-4">
         <div class="card-body">
@@ -128,7 +127,7 @@
               <div class="card-text">
                 Планировщик задач <b>Todo Lite</b>, написанный на react & redux.  С функционалом добавления, удаления, редактирования и сортировки целей.
               </div>
-              <a href="https://github.com/azim2001/weather-app" class="btn btn-primary">Ссылка на github</a>
+              <a href="https://github.com/azim2001/ToDo" class="btn btn-primary">Ссылка на github</a>
               <a href="http://my-todo-lite.surge.sh/" class="btn btn-primary">Ссылка на проект</a>
             </div>
           </div>
@@ -149,7 +148,7 @@
       </div>
     </section>
     <section>
-      <h3>Образование</h3>
+      <h3 class="title">Образование</h3>
       <div class="card">
         <h5 class="card-header">2019 - 2020</h5>
         <div class="card-body">
@@ -179,20 +178,24 @@
         </div>
       </div>
     </section>
-    <section>
-      <section>
-        <h2 class="text-right">Навыки</h2>
-        <dl class="skills">
-          <dt>HTML</dt>
-          <dd><div class="skills-level skills-level-ok" style="width: 100%;">100%</div></dd>
-          <dt>CSS</dt>
-          <dd><div class="skills-level skills-level-ok" style="width: 100%;">100%</div></dd>
-          <dt>JS</dt>
-          <dd><div class="skills-level" style="width: 90%;">90%</div></dd>
-          <dt>React</dt>
-          <dd><div class="skills-level" style="width: 70%;">70%</div></dd>
-        </dl>
-      </section>
+    <section class="technologies">
+      <div class="p-0 container">
+        <div class="row no-gutters mb-4">
+          <div class="col-xl-12">
+            <h2 class="title">Мои знания и технологии</h2>
+          </div>
+        </div>
+        <div class="align-items-center justify-content-around row ml-1" id="tech">
+          <div class="tech col-3"><img src="img/javascript-js-seeklogo.com.svg" alt="" class="tech-img"></div>
+          <div class="tech col-3"><img src="img/git-seeklogo.com.svg" alt="" class="tech-img"></div>
+          <div class="tech col-3"><img src="img/bootstrap-seeklogo.com.svg" alt="" class="tech-img"></div>
+          <div class="tech col-3"><img src="img/css3-seeklogo.com.svg" alt="" class="tech-img"></div>
+          <div class="tech col-3"><img src="img/nodejs-seeklogo.com.svg" alt="" class="tech-img"></div>
+          <div class="tech col-3"><img src="img/react-seeklogo.com.svg" alt="" class="tech-img"></div>
+          <div class="tech col-3"><img src="img/github-seeklogo.com.svg" alt="" class="tech-img"></div>
+          <div class="tech col-3"><img src="img/html5.png" alt="" class="tech-img"></div>
+        </div>
+      </div>
     </section>
   </div>
 
