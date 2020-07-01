@@ -4,23 +4,25 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>My CV</title>
+  <link rel="shortcut icon" href="img/favicon.ico">  
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
   <link rel="stylesheet" href="css/main.css">
+  <title>Azim Abdullayev</title>
   <base target="_blank">
 </head>
 <body style="overflow-x: hidden;">
   <div class="cv container-fluid">
     <section class="no-gutters">
-      <div class="card mb-3 about-me" style="max-width: 540px;">
+      <div class="card mb-3 about-me animate__animated animate__fadeInDown" style="max-width: 540px;">
         <div class="row no-gutters">
           <div class="col-sm-4">
             <img src="img/ava.jpg" class="card-img avatar" alt="...">
           </div>
-          <div class="col-md-8">
+          <div class="col-sm-8">
             <div class="card-body">
-              <h1 class="card-title">Азим Абдуллаев</h1>
+              <h3 class="card-title">Azim Abdullayev</h3>
               <h2 class="card-title">Frontend React Developer</h2>
               <div class="contacts">
                 <div class="contact">
@@ -52,23 +54,24 @@
           </div>
         </div>
       </div>
-      <div class="theme-switch-wrapper">
+      <div class="theme-switch-wrapper animate__animated animate__fadeInRight">
         <label class="theme-switch">
           <input type="checkbox" class="theme-switch__checkbox"/>
           <div class="slider round"></div>
         </label>
       </div>
-      <div class="card mt-4">
+      <div class="card mt-4 animate__animated animate__fadeInUp">
         <div class="card-body">
-          <div class="card-text">
-            Junior Frontend React разработчик с огромным желанием изучить индустрию IT  в поиске практики !
-            Моя сильная сторона - создание SPA приложений, а так же статичных и интреактивных сайтов !
-            Отличаюсь активностью, ответсвенностью и подходу к работе. 
+          <div class="card-text description">
+            Привет, Я Азим, Front-end разработчик с Узбекиcтана.
+            Люблю проектировать полезные вещи, которые приятно и удобно использовать.
+            Часто при мне заряд активности и позитива.
+            <!-- Мой стек: HTML, CSS, Bootsrap, JS (ES6+), React, Redux, Webpack и Git. -->
           </div>
         </div>
       </div>
     </section>
-    <section>
+    <section class="projects animate__animated animate__fadeInLeft">
       <h3>Мои проекты</h3>
       <div class="row">
         <div class="col-sm-6">
@@ -76,10 +79,12 @@
             <div class="card-body">
               <div class="card-title"><h4>Лендинг ActiveBox</h4></div>
               <div class="card-text">
-                Адаптивная верстка макета <a href="https://github.com/kamalcha/ActiveBox/archive/master.zip">ActiveBox</a> на HTML && CSS
+                Адаптивная вёрстка тестового макета <a href="https://github.com/kamalcha/ActiveBox/archive/master.zip">ActiveBox</a> на HTML && CSS
               </div>
-              <a href="https://github.com/azim2001/lending-mark-up" class="btn btn-primary">Ссылка на github</a>
-              <a href="http://active-box.surge.sh/" class="btn btn-primary">Ссылка на проект</a>
+              <div class="links">
+                <a href="https://github.com/azim2001/lending-mark-up" class="btn btn-primary">Ссылка на github</a>
+                <a href="http://active-box.surge.sh/" class="btn btn-primary">Ссылка на проект</a>
+              </div>
             </div>
           </div>
         </div>
@@ -90,21 +95,27 @@
               <div class="card-text">
                 Приложение по поиску пользователей github, построенное на React и его современной технологии - <b>хуках</b>.
               </div>
-              <a href="https://github.com/azim2001/Github-Search" class="btn btn-primary">Ссылка на github</a>
-              <a href="http://my-github-search.surge.sh/" class="btn btn-primary">Ссылка на проект</a>
+              <div class="links">
+                <a href="https://github.com/azim2001/Github-Search" class="btn btn-primary">Ссылка на github</a>
+                <a href="http://my-github-search.surge.sh/" class="btn btn-primary">Ссылка на проект</a>
+              </div>
             </div>
           </div>
         </div>
         <div class="col-sm-6">
           <div class="card">
             <div class="card-body">
-              <div class="card-title"><h4>Quiz</h4></div>
+              <div class="card-title">
+                <h4>Tests-Creator</h4>
+              </div>
               <div class="card-text">
-                Приложение по прохождению и созданию тестов. Так же присутсвует функционал для регистрации пользователей.
+                Приложение по прохождению и созданию тестов. Так же присутствует функционал для регистрации пользователей.
                 Используются библиотеки react, redux, react-router, axios. 
               </div>
-              <a href="https://github.com/azim2001/react-quiz-app" class="btn btn-primary">Ссылка на github</a>
-              <a href="https://react-quiz-76286.firebaseapp.com/" class="btn btn-primary">Ссылка на проект</a>
+              <div class="links">
+                <a href="https://github.com/azim2001/react-quiz-app" class="btn btn-primary">Ссылка на github</a>
+                <a href="https://react-quiz-76286.firebaseapp.com/" class="btn btn-primary">Ссылка на проект</a>
+              </div>
             </div>
           </div>
         </div>
@@ -115,8 +126,10 @@
             <div class="card-text">
                Приложение дает доступ к текущим данным о погоде в более чем в 200 000 городах. Данные постоянно обновляются на основе глобальных моделей и данных с более чем 40 000 метеостанций
              </div>
-             <a href="https://github.com/azim2001/weather-app" class="btn btn-primary">Ссылка на github</a>
-             <a href="http://azimabdi-weather-app.surge.sh/" class="btn btn-primary">Ссылка на проект</a>
+             <div class="links">
+              <a href="https://github.com/azim2001/weather-app" class="btn btn-primary">Ссылка на github</a>
+              <a href="http://azimabdi-weather-app.surge.sh/" class="btn btn-primary">Ссылка на проект</a>
+            </div>
            </div>
           </div>
         </div>
@@ -127,21 +140,25 @@
               <div class="card-text">
                 Планировщик задач <b>Todo Lite</b>, написанный на react & redux.  С функционалом добавления, удаления, редактирования и сортировки целей.
               </div>
-              <a href="https://github.com/azim2001/ToDo" class="btn btn-primary">Ссылка на github</a>
-              <a href="http://my-todo-lite.surge.sh/" class="btn btn-primary">Ссылка на проект</a>
+              <div class="links">
+                <a href="https://github.com/azim2001/ToDo" class="btn btn-primary">Ссылка на github</a>
+                <a href="http://my-todo-lite.surge.sh/" class="btn btn-primary">Ссылка на проект</a>
+              </div>
             </div>
           </div>
         </div>
         <div class="col-sm-6">
           <div class="card">
             <div class="card-body">
-              <div class="card-title"><h4>Math-game</h4></div>
+              <div class="card-title"><h4>Викторина</h4></div>
               <div class="card-text">
-                Простая математическая утилита math-game, написанная на Nodejs.
-                Программа схожа с викториной, которая по очереди задает примеры на сложение, вычитание, умножение и деление.
-                <p>Для установки программы введите в терминале <code><b>sudo npm i -g azim-math-game</b></code></p>
+                Удобная викторина с готовыми вопросами на самые разные тематики с возможностью выбора сложности. 
+                Собрано на material-ui, redux, axios, react.
               </div>
-              <a href="https://github.com/azim2001/math-game-task" class="btn btn-primary">Ссылка на github</a>
+              <div class="links">
+                <a href="https://github.com/azim2001/quiz" class="btn btn-primary">Ссылка на github</a>
+                <a href="http://my-quiz.surge.sh/" class="btn btn-primary">Ссылка на проект</a>
+              </div>
             </div>
           </div>
         </div>
@@ -152,20 +169,13 @@
       <div class="card">
         <h5 class="card-header">2019 - 2020</h5>
         <div class="card-body">
-          <h5 class="card-title">Курс Frontend React разработчик от команды <a href="https://knowledge.uz">knowledge</a></h5>
+          <h5 class="card-title">Курс Frontend React разработчик от команды <b><a href="https://knowledge.uz">Knowledge</a></b></h5>
              <ul class="card-text">
               <li>Верстка сайтов</li>
               <li>Синтаксис и возможности JS</li>
               <li>Парадигмы и алгоритмы программирования. Архетиктура приложений</li>
               <li>React JS - изучение, практика</li>
             </ul>
-        </div>
-      </div>
-      <div class="card">
-        <h5 class="card-header">2016-2018</h5>
-        <div class="card-body">
-          <h5 class="card-title">Ташкентский промышленный колледж Sanoat</h5>
-          <p class="card-text">Направление - слесарное дело</p>
         </div>
       </div>
       <div class="card">
@@ -182,22 +192,53 @@
       <div class="p-0 container">
         <div class="row no-gutters mb-4">
           <div class="col-xl-12">
-            <h2 class="title">Мои знания и технологии</h2>
+            <h2 class="title text-center">Мои знания и технологии</h2>
           </div>
         </div>
-        <div class="align-items-center justify-content-around row ml-1" id="tech">
-          <div class="tech col-3"><img src="img/javascript-js-seeklogo.com.svg" alt="" class="tech-img"></div>
-          <div class="tech col-3"><img src="img/git-seeklogo.com.svg" alt="" class="tech-img"></div>
-          <div class="tech col-3"><img src="img/bootstrap-seeklogo.com.svg" alt="" class="tech-img"></div>
-          <div class="tech col-3"><img src="img/css3-seeklogo.com.svg" alt="" class="tech-img"></div>
-          <div class="tech col-3"><img src="img/nodejs-seeklogo.com.svg" alt="" class="tech-img"></div>
-          <div class="tech col-3"><img src="img/react-seeklogo.com.svg" alt="" class="tech-img"></div>
-          <div class="tech col-3"><img src="img/github-seeklogo.com.svg" alt="" class="tech-img"></div>
-          <div class="tech col-3"><img src="img/html5.png" alt="" class="tech-img"></div>
+        <div id="tech">
+        <div class="row no-gutters pt-4 pb-4">
+          <div class="tech col"><img src="img/javascript-js-seeklogo.com.svg" alt="" class="tech-img"></div>
+          <div class="tech col"><img src="img/git-seeklogo.com.svg" alt="" class="tech-img"></div>
+          <div class="tech col"><img src="img/bootstrap-seeklogo.com.svg" alt="" class="tech-img"></div>
+          <div class="tech col"><img src="img/css3-seeklogo.com.svg" alt="" class="tech-img css-img"></div>
+          <div class="tech col"><img src="img/webpack.png" alt="" class="tech-img webpack-img"></div>
         </div>
+        <div class="row no-gutters pt-4">
+          <div class="tech col"><img src="img/react-seeklogo.com.svg" alt="" class="tech-img"></div>
+          <div class="tech col"><img src="img/redux.svg" alt="" class="tech-img redux-img"></div>
+          <div class="tech col"><img src="img/github-seeklogo.com.svg" alt="" class="tech-img"></div>
+          <div class="tech col"><img src="img/nodejs-seeklogo.com.svg" alt="" class="tech-img"></div>
+          <div class="tech col"><img src="img/html5.png" alt="" class="tech-img"></div>
+        </div>
+      </div>
       </div>
     </section>
   </div>
+  <footer class="footer">
+    <div class="container">
+      <div class="row footer-info">
+        <div class="col-12 col-sm-6 col-md-4">
+          <div class="location">
+            г.Ташкент Миробадский р-н, ул.Янги Куйлюк 3-й квартал ( массив ) , д-15, кв-29
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4">
+          <div class="follow">
+            <ul class="follow-list">
+              <li class="follow-list-item"><a href="https://t.me/azim_abdi"><i class="fab fa-telegram-plane"></i></a></li>
+              <li class="follow-list-item"><a href="https://www.instagram.com/azim__abdullayev/"><i class="fab fa-instagram"></i></a></li>
+              <li class="follow-list-item"><a href="https://www.facebook.com/profile.php?id=100046337617524"><i class="fab fa-facebook-f"></i></a></li>
+            </ul>
+            <p>Свяжитесь со мной в соц.сетях <i class="fas fa-heart"></i></p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <div class="footer-credits">
+        <p>© Azim Abdullayev 2020</p>
+    </div>
+  </footer>
 
   <script src='js/script.js'></script>
 </body>
